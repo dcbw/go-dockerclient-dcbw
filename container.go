@@ -135,6 +135,8 @@ type NetworkSettings struct {
 	Bridge      string                 `json:"Bridge,omitempty" yaml:"Bridge,omitempty"`
 	PortMapping map[string]PortMapping `json:"PortMapping,omitempty" yaml:"PortMapping,omitempty"`
 	Ports       map[Port][]PortBinding `json:"Ports,omitempty" yaml:"Ports,omitempty"`
+	NetworkID   string                 `json:"NetworkID,omitempty" yaml:"NetworkID,omitempty"`
+	SandboxKey  string                 `json:"SandboxKey,omitempty" yaml:"SandboxKey,omitempty"`
 }
 
 // PortMappingAPI translates the port mappings as contained in NetworkSettings
