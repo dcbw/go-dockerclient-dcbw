@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/fsouza/go-dockerclient/external/github.com/gorilla/context"
+	"github.com/dcbw/go-dockerclient/external/github.com/gorilla/context"
 )
 
 type routeTest struct {

@@ -17,11 +17,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/fsouza/go-dockerclient/external/github.com/Sirupsen/logrus"
-	"github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/fileutils"
-	"github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/pools"
-	"github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/promise"
-	"github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/system"
+	"github.com/dcbw/go-dockerclient/external/github.com/Sirupsen/logrus"
+	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/fileutils"
+	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/pools"
+	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/promise"
+	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/system"
 )
 
 type (

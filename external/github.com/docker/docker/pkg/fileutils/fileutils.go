@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/fsouza/go-dockerclient/external/github.com/Sirupsen/logrus"
+	"github.com/dcbw/go-dockerclient/external/github.com/Sirupsen/logrus"
 )
 
 // exclusion return true if the specified pattern is an exclusion
