@@ -14,7 +14,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/ioutils"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/ioutils"
 )
 
 var (

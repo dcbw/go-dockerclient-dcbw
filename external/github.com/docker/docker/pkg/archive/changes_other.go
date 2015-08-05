@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/system"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/system"
 )
 
 func collectFileInfoForChanges(oldDir, newDir string) (*FileInfo, *FileInfo, error) {

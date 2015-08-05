@@ -12,7 +12,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/dcbw/go-dockerclient"
+	"github.com/dcbw/go-dockerclient-dcbw"
 )
 
 func ExampleClient_AttachToContainer() {

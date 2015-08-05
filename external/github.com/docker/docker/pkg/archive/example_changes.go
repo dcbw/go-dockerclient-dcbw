@@ -13,8 +13,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/dcbw/go-dockerclient/external/github.com/Sirupsen/logrus"
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/archive"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/Sirupsen/logrus"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/archive"
 )
 
 var (

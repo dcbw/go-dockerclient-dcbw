@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/archive"
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/fileutils"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/archive"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/fileutils"
 )
 
 func createTarStream(srcPath, dockerfilePath string) (io.ReadCloser, error) {

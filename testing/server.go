@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dcbw/go-dockerclient"
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/stdcopy"
-	"github.com/dcbw/go-dockerclient/external/github.com/gorilla/mux"
+	"github.com/dcbw/go-dockerclient-dcbw"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/stdcopy"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/gorilla/mux"
 )
 
 var nameRegexp = regexp.MustCompile(`^[a-zA-Z0-9][a-zA-Z0-9_.-]+$`)

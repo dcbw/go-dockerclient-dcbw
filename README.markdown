@@ -1,8 +1,8 @@
 # go-dockerclient
 
-[![Drone](https://drone.io/github.com/dcbw/go-dockerclient/status.png)](https://drone.io/github.com/dcbw/go-dockerclient/latest)
-[![Travis](https://img.shields.io/travis/dcbw/go-dockerclient.svg?style=flat-square)](https://travis-ci.org/dcbw/go-dockerclient)
-[![GoDoc](https://img.shields.io/badge/api-Godoc-blue.svg?style=flat-square)](https://godoc.org/github.com/dcbw/go-dockerclient)
+[![Drone](https://drone.io/github.com/dcbw/go-dockerclient-dcbw/status.png)](https://drone.io/github.com/dcbw/go-dockerclient-dcbw/latest)
+[![Travis](https://img.shields.io/travis/dcbw/go-dockerclient-dcbw.svg?style=flat-square)](https://travis-ci.org/dcbw/go-dockerclient-dcbw)
+[![GoDoc](https://img.shields.io/badge/api-Godoc-blue.svg?style=flat-square)](https://godoc.org/github.com/dcbw/go-dockerclient-dcbw)
 
 This package presents a client for the Docker remote API. It also provides
 support for the extensions in the [Swarm API](https://docs.docker.com/swarm/API/).
@@ -17,7 +17,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/dcbw/go-dockerclient"
+	"github.com/dcbw/go-dockerclient-dcbw"
 )
 
 func main() {
@@ -45,7 +45,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/dcbw/go-dockerclient"
+	"github.com/dcbw/go-dockerclient-dcbw"
 )
 
 func main() {
@@ -69,7 +69,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/dcbw/go-dockerclient"
+	"github.com/dcbw/go-dockerclient-dcbw"
 )
 
 func main() {

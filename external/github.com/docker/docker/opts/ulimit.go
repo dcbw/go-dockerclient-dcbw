@@ -3,7 +3,7 @@ package opts
 import (
 	"fmt"
 
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/ulimit"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/ulimit"
 )
 
 type UlimitOpt struct {

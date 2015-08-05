@@ -28,9 +28,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/opts"
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/homedir"
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/stdcopy"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/opts"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/homedir"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/stdcopy"
 	"time"
 )
 

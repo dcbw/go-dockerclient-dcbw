@@ -5,7 +5,7 @@ package archive
 import (
 	"syscall"
 
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/system"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/system"
 )
 
 func statDifferent(oldStat *system.Stat_t, newStat *system.Stat_t) bool {

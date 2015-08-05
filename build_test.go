@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/archive"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/archive"
 )
 
 func TestBuildImageMultipleContextsError(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/system"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/system"
 )
 
 // CanonicalTarNameForPath returns platform-specific filepath

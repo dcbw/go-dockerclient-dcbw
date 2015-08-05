@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/dcbw/go-dockerclient/external/github.com/Sirupsen/logrus"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/Sirupsen/logrus"
 )
 
 // Errors used or returned by this file.

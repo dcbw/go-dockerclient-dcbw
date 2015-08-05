@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dcbw/go-dockerclient/external/github.com/docker/docker/pkg/units"
+	"github.com/dcbw/go-dockerclient-dcbw/external/github.com/docker/docker/pkg/units"
 )
 
 var (
